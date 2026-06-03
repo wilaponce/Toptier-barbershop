@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Top Tier Barbershop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap topbar">
+      <div class="brand">
+        <div class="mark" id="brandMark">TT</div>
+        <div>
+          <div class="brand-name" id="brandName"></div>
+          <div class="brand-location" id="brandLocation"></div>
+        </div>
+      </div>
+    <!--  <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      <nav id="desktopNav" class="desktop-nav"></nav>
+    </div>
+    <div id="mobileMenu" class="mobile-menu wrap"></div>-->
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow" id="heroEyebrow"></div>
+        <h1 id="heroTitle"></h1>
+        <p class="section-copy" id="heroDescription"></p>
+      </div>
+      <div class="hero-carousel" id="heroCarousel" aria-label="Shop image carousel">
+        <div class="hero-slides" id="heroSlides"></div>
+        <button class="carousel-btn prev" id="heroPrev" type="button" aria-label="Previous image">‹</button>
+        <button class="carousel-btn next" id="heroNext" type="button" aria-label="Next image">›</button>
+        <div class="carousel-dots" id="heroDots"></div>
+      </div>
+    </section>
+
+    <section id="profiles" class="wrap section">
+      <div class="eyebrow" id="profilesEyebrow"></div>
+      <h2 id="profilesTitle"></h2>
+      <p class="section-copy" id="profilesDescription"></p>
+      <div id="profilesGrid" class="profiles-grid"></div>
+    </section>
+
+  <!--= <section" id="gallery" class="wrap section">
+      <div class="eyebrow" id="galleryEyebrow"></div>
+      <h2 id="galleryTitle"></h2>
+      <p class="section-copy" id="galleryDescription"></p>
+      <div id="galleryGrid" class="gallery-grid"></div>
+    </section>-->
+
+    <section id="about" class="wrap section">
+      <div class="eyebrow" id="aboutEyebrow"></div>
+      <h2 id="aboutTitle"></h2>
+      <p class="section-copy" id="aboutDescription"></p>
+      <div class="panel">
+        <ul id="aboutList" class="bullet-list"></ul>
+      </div>
+    </section>
+
+    <section id="services" class="wrap section">
+      <div class="eyebrow" id="servicesEyebrow"></div>
+      <h2 id="servicesTitle"></h2>
+      <p class="section-copy" id="servicesDescription"></p>
+      <div id="servicesGrid" class="services-grid"></div>
+    </section>
+
+    <section id="hours" class="wrap section">
+      <div class="eyebrow" id="hoursEyebrow"></div>
+      <h2 id="hoursTitle"></h2>
+      <p class="section-copy" id="hoursDescription"></p>
+      <div class="two-col">
+        <div class="panel">
+          <h3>Business Hours</h3>
+          <ul id="hoursList" class="hours-list"></ul>
+        </div>
+        <div class="panel" id="contact">
+          <h3 id="contactTitle"></h3>
+          <p class="section-copy" id="contactDescription"></p>
+          <div id="contactItems" class="contact-items"></div>
+          <div id="contactButtons" class="button-row"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div>
+        <strong id="footerBusinessName"></strong>
+        <div id="footerAddress"></div>
+      </div>
+      <div>© <span id="year"></span> Top Tier Barbershop</div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
